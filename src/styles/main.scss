@@ -1,13 +1,22 @@
 @use 'hero';
 @use 'components/infos_bar';
 @use 'components/buttons';
+<<<<<<< HEAD
+=======
+@use 'event';
+@use 'variables';
+>>>>>>> fe82437 (Ajustes finos, criação de um file apenas para variáveis e a criação completa do event, os 4 containers de conteúdo, nascimento, vida, conquistas e futuro)
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: variables.$textColor;
+>>>>>>> fe82437 (Ajustes finos, criação de um file apenas para variáveis e a criação completa do event, os 4 containers de conteúdo, nascimento, vida, conquistas e futuro)
     list-style: none;
 }
 

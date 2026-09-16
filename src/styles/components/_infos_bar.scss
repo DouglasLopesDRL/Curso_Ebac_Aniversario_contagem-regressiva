@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 .infos-bar{
     padding: 16px 24px;
     background-color: #fff;
+=======
+@use '../variables';
+
+.infos-bar{
+    padding: 16px 24px;
+    background-color: variables.$textColor;
+>>>>>>> fe82437 (Ajustes finos, criação de um file apenas para variáveis e a criação completa do event, os 4 containers de conteúdo, nascimento, vida, conquistas e futuro)
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,10 +19,17 @@
 
         &__item{
             font-size: 14px;
+<<<<<<< HEAD
             color: #000;
 
             b{
                 color: #000;
+=======
+            color: variables.$textInfosBar;
+
+            b{
+                color: variables.$textInfosBar;
+>>>>>>> fe82437 (Ajustes finos, criação de um file apenas para variáveis e a criação completa do event, os 4 containers de conteúdo, nascimento, vida, conquistas e futuro)
                 font-size: 18px;
                 display: block;
             }
