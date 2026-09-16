@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 @use '../variables';
 
->>>>>>> fe82437 (Ajustes finos, criação de um file apenas para variáveis e a criação completa do event, os 4 containers de conteúdo, nascimento, vida, conquistas e futuro)
 .button{
     padding: 12px;
     font-size: 18px;
@@ -12,13 +9,8 @@
     white-space: nowrap;
 
     &--primary{
-<<<<<<< HEAD
-        color: #fff;
-        background-color: #4F2AC3;
-=======
         color: variables.$textColor;
         background-color: variables.$buttonColor;
->>>>>>> fe82437 (Ajustes finos, criação de um file apenas para variáveis e a criação completa do event, os 4 containers de conteúdo, nascimento, vida, conquistas e futuro)
     }
 
     @media (max-width: 640px){
